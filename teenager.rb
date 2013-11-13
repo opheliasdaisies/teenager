@@ -4,6 +4,8 @@
 
 #To test your solution run `rspec teenager_spec.rb` in your terminal
 
-def is_a_teenager?(age)
-  age >= 13 && age <= 19
+def is_a_teenager? (age)
+  if age >= 13 && age <= 19
+  	return true
+  end
 end
